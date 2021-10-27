@@ -1,0 +1,66 @@
+.arrow-top
+{
+	margin-top: 0px;
+	text-align: center;
+	position: relative;
+	top: -2px;
+}
+
+footer
+{
+    position: relative;
+    font-size: 0.8em;
+
+}
+
+footer h1
+{
+    font-size: 1.2em;
+}
+
+footer div
+{
+    width: 33%;
+}
+
+.photos img
+{
+    border: 1px solid black;
+    margin-right: 2px;
+}
+
+.friends
+{
+    position: absolute;
+    right: 0px;
+    width: auto;
+}
+
+.friends h1
+{
+    margin-bottom: 0px;
+}
+
+.friends ul
+{
+    display: inline-block;
+    font-family: Arial, Helvetica, sans-serif;
+    padding-left: 0px;
+    list-style: inside url("../images/ico_liensexterne.png");
+}
+
+.second
+{
+    margin-left: 25px;
+}
+
+footer a
+{
+    color: #3d3d3d;
+    text-decoration: none;
+}
+
+footer a:hover
+{
+    text-decoration: underline;
+}

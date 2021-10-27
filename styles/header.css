@@ -1,0 +1,115 @@
+/* set up fonts */
+@font-face 
+{
+    font-family: ballpark;
+    src: url("../fonts/ballpark.ttf");
+}
+
+@font-face 
+{
+    font-family: dayrom;
+    src: url("../fonts/dayrom.ttf");
+}
+
+body
+{
+    margin: 0px;
+}
+
+.main
+{
+    color: #3d3d3d;
+    background-color: #fff7da;
+    min-width: 970px;
+}
+
+h1 h2
+{
+    font-family: dayrom, sans-serif;
+}
+
+.logo
+{
+    font-family: ballpark, Arial, sans-serif;
+    font-size: 3em;
+    margin-bottom: 0px;
+    margin-top: 20px;
+}
+
+.logo img
+{
+    position: relative;
+    top: -10px;
+}
+
+.no-margin-top
+{
+    margin-top: 0px;
+}
+
+.inline-block
+{
+    display: inline-block;
+}
+
+.align-top
+{
+    vertical-align: top;
+}
+
+.center-left
+{
+    margin-left: 12%;
+}
+
+.center-right
+{
+    margin-right: 12%;
+}
+
+.center
+{
+    width: 950px;
+    margin: auto;
+}
+
+header
+{
+    position: relative;
+}
+
+header h2
+{
+    font-size: 1em;
+    margin-bottom: 0px;
+    padding-left: 3px;
+    position: relative;
+    top: -10px;
+}
+
+nav
+{
+    text-align: right;
+    position: absolute;
+    top: 60%;
+    right: 0px;
+}
+
+nav a
+{
+    margin-right: 10px;
+    color: rgb(61, 61, 61);
+    font-weight: bold;
+    text-decoration: none;
+}
+
+nav a:focus
+{
+    color: rgb(0, 0, 0);
+}
+
+nav a:hover
+{
+    text-decoration: underline;
+    color: rgb(0, 0, 0);
+}

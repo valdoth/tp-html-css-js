@@ -1,0 +1,136 @@
+.banner-section-container
+{
+    background: url("../images/separateur.png") top repeat-x,
+        url("../images/separateur.png") bottom repeat-x;
+    background-color: #f8ebcb;
+}
+
+.banner
+{
+    background: url("../images/sanfrancisco.jpg") no-repeat;
+    height: 219px;
+    border-radius: 8px;
+    position: relative;
+    top: 20px;
+    box-shadow: 2px 2px 8px black;
+}
+
+.banner div
+{
+    color: white;
+    background-color: rgba(30, 30, 30, 0.7);
+    position: absolute;
+    bottom: 0px;
+    width: 100%;
+    border-radius: 0px 0px 8px 8px;
+}
+
+.banner div p
+{
+    color: aliceblue;
+    font-size: 0.8em;
+    margin-left: 15px;
+}
+
+.button
+{
+    font-family: sans-serif;
+    font-size: 0.8em;
+    color: white;
+    text-decoration: none;
+    position: absolute;
+    right: 20px;
+    margin-top: 7px;
+    text-align: center;
+    padding-top: 7px;
+    width: 100px;
+    height: 29px;
+    border-radius: 5px;
+    background: url("../images/fond_degraderouge.png") repeat-x;
+}
+
+.button:hover
+{
+    text-decoration: underline;
+}
+
+.button img
+{
+    position: relative;
+    top: 1px;
+    left: 3px;
+}
+
+section
+{
+    margin-top: 15px;
+}
+
+article
+{
+    width: 68%;
+}
+
+article p
+{
+    color: black;
+    text-align: justify;
+    font-size: 0.9em;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+article h1 img
+{
+	margin-right: 10px;
+	position: relative;
+	top: 16px;
+}
+
+aside
+{
+    width: 27%;
+    margin-top: 5%;
+    margin-left: 22px;
+    font-size: 0.8em;
+    text-align: justify;
+    background-color: #6f6a64;
+    color: white;
+    padding-left: 10px;
+    padding-right: 10px;
+    padding-bottom: 5px;
+    border-radius: 5px;
+}
+
+aside h1
+{
+    text-align: center;
+}
+
+.aside-images
+{
+    width: 163px;
+    margin: auto;
+}
+
+.arrow-left
+{
+	position: relative;
+	left: -69px;
+}
+
+.links
+{
+    text-align: center;
+}
+
+.links a
+{
+    margin-right: 3px;
+}
+
+em
+{
+    color: darkred;
+    font-style: normal;
+    text-decoration: underline;
+}
